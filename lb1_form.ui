@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>LB1_form</class>
+ <widget class="QMainWindow" name="LB1_form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="1" column="0">
+     <widget class="QTableView" name="tableView_2"/>
+    </item>
+    <item row="2" column="0">
+     <widget class="QTableView" name="tableView"/>
+    </item>
+    <item row="0" column="0">
+     <widget class="QTableView" name="tableView_3"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionExit"/>
+   </widget>
+   <widget class="QMenu" name="menuDatabase">
+    <property name="title">
+     <string>Database</string>
+    </property>
+    <addaction name="actiontitles"/>
+    <addaction name="actiontitle_genre"/>
+    <addaction name="actiongenres"/>
+   </widget>
+   <widget class="QMenu" name="menuView">
+    <property name="title">
+     <string>View</string>
+    </property>
+    <addaction name="actionQueryEdit"/>
+   </widget>
+   <widget class="QMenu" name="menuEditForm">
+    <property name="title">
+     <string>EditForm</string>
+    </property>
+    <addaction name="actionAdd"/>
+    <addaction name="actionUpdate"/>
+    <addaction name="actionDelete"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuDatabase"/>
+   <addaction name="menuView"/>
+   <addaction name="menuEditForm"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionExit">
+   <property name="text">
+    <string>Exit</string>
+   </property>
+  </action>
+  <action name="actiontitles">
+   <property name="text">
+    <string>titles</string>
+   </property>
+  </action>
+  <action name="actiontitle_genre">
+   <property name="text">
+    <string>title_genre</string>
+   </property>
+  </action>
+  <action name="actiongenres">
+   <property name="text">
+    <string>genres</string>
+   </property>
+  </action>
+  <action name="actionQueryEdit">
+   <property name="text">
+    <string>QueryEdit</string>
+   </property>
+  </action>
+  <action name="actionAdd">
+   <property name="text">
+    <string>Add</string>
+   </property>
+  </action>
+  <action name="actionUpdate">
+   <property name="text">
+    <string>Update</string>
+   </property>
+  </action>
+  <action name="actionDelete">
+   <property name="text">
+    <string>Delete</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
